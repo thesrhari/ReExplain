@@ -10,7 +10,7 @@ A simple web app that converts text for different audience, like for a 5-year-ol
 
 ## 🔗 Live Demo
 
-[Try it here](https://your-deployed-url.com) _(Recommended way to use the app)_
+[Try it here](https://re-explain.vercel.app/) _(Recommended way to use the app)_
 
 ## 🛠️ Installation (Local Setup)
 
