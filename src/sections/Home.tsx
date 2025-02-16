@@ -71,10 +71,10 @@ const Home = () => {
         {/* Generate Section */}
         <div className="bg-white rounded-lg shadow-md min-w-[300px]">
           <div className="p-6">
-            <h2 className="text-xl font-semibold mb-4">Generate</h2>
+            <h2 className="text-xl font-semibold mb-4">Enter your text</h2>
             <div className="space-y-4">
               <textarea
-                placeholder="Type Title"
+                placeholder="Enter text that you want to explain"
                 value={inputTitle}
                 onChange={(e) => setInputTitle(e.target.value)}
                 className="w-full min-h-[400px] p-3 border border-gray-300 rounded-md
@@ -128,7 +128,7 @@ const Home = () => {
         {/* Result Section */}
         <div className="bg-white rounded-lg shadow-md min-w-[300px]">
           <div className="p-6">
-            <h2 className="text-xl font-semibold mb-4">Result</h2>
+            <h2 className="text-xl font-semibold mb-4">Output</h2>
             <div className="w-full min-h-[400px] p-3 bg-gray-50 border border-gray-300 rounded-md overflow-y-auto">
               <ReactMarkdown
                 remarkPlugins={[remarkGfm]}
